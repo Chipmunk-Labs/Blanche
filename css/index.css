@@ -549,7 +549,7 @@ div.cuadrote {
 div.cuadron {
     width: 90%;
     height: 200px;
-    background: black;
+    background-image: url(http://www.ehermanos.com.pe/images/productos/linea_blanca.jpg);
     margin: 0 auto;
     margin-top: 15px;
 }
