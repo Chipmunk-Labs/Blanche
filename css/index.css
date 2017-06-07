@@ -332,11 +332,14 @@ nav.int>ul>li>ul>li a:hover {
 
 div.contenido {
     width: 85%;
-    height: 1200px;
+    height: 1000px;
     margin: 0 auto;
+    margin-bottom: -100px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     background-color: rgba(236, 240, 241, 0.9);
+    position: relative; 
+    box-shadow: 7px 7px 10px rgba(1, 1, 1, 0.25);
 }
 
 p.us {
@@ -360,7 +363,6 @@ div.fila1 {
 
 .bottom {
     width: 100%;
-    position: absolute;
     background: rgba(33, 47, 60, 1.0);
 }
 
