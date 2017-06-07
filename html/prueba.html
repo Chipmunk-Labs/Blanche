@@ -1,0 +1,116 @@
+<DOCTYPE! html>
+<html>
+<head>
+   <meta charset="UTF-8">
+   <title>FORMULARIO</title>
+   <script>
+    
+  function validarFormulario(){
+
+    var txtNombre = document.getElementById('nombre').value;
+    var txtApellido = document.getElementById('apellido').value;
+    var txtEdad = document.getElementById('edad').value;
+    var txtCorreo = document.getElementById('correo').value;
+    var txtFecha = document.getElementById('fecha').value;
+    var txtComentarios = document.getElementById('come').value;
+
+    var banderaRBTN = false;
+
+ 
+    if(txtNombre == null || txtNombre.length == 0 || /^\s+$/.test(txtNombre)){
+      alert('ERROR: El campo nombre no debe ir vacío o lleno de solamente espacios en blanco');
+      return false;
+    }
+
+    if(txtApellido == null || txtApellido.length == 0 || /^\s+$/.test(txtApellido)){
+      alert('ERROR: El campo apellido no debe ir vacío o lleno de solamente espacios en blanco');
+      return false;
+    }
+   
+    if(txtEdad == null || txtEdad.length == 0 || isNaN(txtEdad)){
+      alert('ERROR: Debe ingresar una edad valid no texto');
+      return false;
+    }
+
+    
+    if(!(/\S+@\S+\.\S+/.test(txtCorreo))){
+      alert('ERROR: Debe escribir un correo válido');
+      return false;
+    }
+
+  
+    if(!isNaN(txtFecha)){
+      alert('ERROR: Debe elegir una fecha');
+      return false;
+    }
+
+    if(txtComentarios == null || txtComentarios.length == 0 || /^\s+$/.test(txtComentarios)){
+      alert('ERROR: El campo comentario no debe ir vacío o lleno de solamente espacios en blanco');
+      return false;
+    }
+
+    return true;
+  }
+
+  </script>
+
+
+</head>
+<body background="cocina.jpg">
+<br>
+<br>
+<br>
+<center>
+<table>
+<h1>Formulario de Contacto</h1>
+  <form action="" onsubmit="return validarFormulario()">
+
+   <tr>
+   <td><label for="nombre"><span>Nombre:</span></label></td>
+   <td> <label for="apellido"><span>Apellido:</span></label></td>
+   </tr>
+
+   <tr>
+   <td> <input id="nombre" name="nombre" type="text" size="30"></td>
+   <td>  <input id="apellido" name="apellido" type="text" size="30"></td>
+   </tr>
+
+   <tr>
+   <td> <label for="edad"><span>Edad:</span></label></td>
+   <td> <label for="correo"><span>Correo electrónico:</span></label></td>
+   </tr>
+
+
+   <tr>
+   <td> <input id="edad" name="edad" type="text" size="30" ></td>
+   <td> <input id="correo" name="correo" type="text" size="30"></td>
+   </tr>
+
+   <tr>
+   <td> <label for="fecha"><span>Fecha de Nacimiento:</span></label></td>
+   </tr>
+
+   <tr>
+   <td>  <input id="fecha" name="fecha" type="date" size="30"></td>
+   </tr>
+
+   <tr>
+   <td>  <label for="come"><span>Escribe tus comentarios:</span></label></td>
+   </tr>
+
+   <tr>
+    <td><textarea  id="come" name="come" cols="20" rows="10" type="text" ></textarea></td>
+  </tr>
+
+  <tr>
+  <td><label for="cuidad" name="cuidad" type="">
+
+    
+<tr>
+<td><input type="submit" value="Submit"></td>
+</tr>
+
+  </form>
+  </table>
+</body>
+</html>
