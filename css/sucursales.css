@@ -1,4 +1,7 @@
-
+@import url('https://www.fontify.me/wf/298dca9e97fcbad4a59e01d94e1859fb');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
 #encabezado{
 	width: 40%;
 	background: rgba(231, 76, 60, 0.9);
@@ -13,10 +16,7 @@
 	font-family: verdana;
 
 }
-@import url('https://www.fontify.me/wf/298dca9e97fcbad4a59e01d94e1859fb');
-@import url('https://fonts.googleapis.com/css?family=Comfortaa');
-@import url('https://fonts.googleapis.com/css?family=Poppins');
-@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
 
 l {
     font-family: 'Comfortaa', cursive;
