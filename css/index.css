@@ -308,7 +308,6 @@ nav>ul li a {
     color: #fff;
     display: block;
     padding: 25px;
-    position: relative;
     text-align: center;
     text-decoration: none;
     color: #fff;
@@ -334,12 +333,11 @@ div.contenido {
     width: 85%;
     height: 1000px;
     margin: 0 auto;
-    margin-bottom: -100px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-    background-color: rgba(236, 240, 241, 0.9);
-    position: relative; 
+    background-color: rgba(236, 240, 241, 0.9); 
     box-shadow: 7px 7px 10px rgba(1, 1, 1, 0.25);
+    
 }
 
 p.us {
@@ -549,7 +547,7 @@ div.cuadrote {
 div.cuadron {
     width: 90%;
     height: 200px;
-    background:url(http://www.ehermanos.com.pe/images/productos/linea_blanca.jpg);
+    background: rgba(189, 195, 199, 1.0);
     margin: 0 auto;
     margin-top: 15px;
 }
