@@ -549,7 +549,7 @@ div.cuadrote {
 div.cuadron {
     width: 90%;
     height: 200px;
-    background: rgba(189, 195, 199, 1.0);
+    background: black;
     margin: 0 auto;
     margin-top: 15px;
 }
