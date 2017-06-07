@@ -1,8 +1,15 @@
-<DOCTYPE! html>
-<html>
+<!DOCTYPE html>
+<html lang="es">
 <head>
    <meta charset="UTF-8">
-   <title>FORMULARIO</title>
+   <title>Blanchè!</title>
+   <link rel="stylesheet" href="../css/reg.css">
+       <link rel="stylesheet" href="../css/icons.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="../js/animacion.js"></script>
+    <script src="../js/height.js"></script>
+    <script src="../js/altura2.js"></script>
+    <script src="../js/fondo.js"></script>
    <script>
     
   function validarFormulario(){
@@ -56,11 +63,48 @@
 
 
 </head>
-<body background="cocina.jpg">
-<br>
-<br>
-<br>
-<center>
+<body>
+<div class="superior">
+        <img id="i" src="../img/logo.png" width="300px">
+        <div id="m" class="cargando">
+
+        </div>
+    </div>
+    <div class="barra">
+            <div class="logo">
+                <a href="../index.html">
+                    <img id="l" src="../img/logi.png" width="225px">
+                </a>
+            </div>
+            <div class="s">
+                <nav class="int">
+                    <ul>
+                        <li><a href="#">Catálogo</a>
+                            <ul>
+                                <li><a href="catlav.html">lavanderia</a></li>
+                                <li><a href="catcoc.html">cocina</a></li>
+                                <li><a href="catacc.html">accesorios</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Galería</a>
+                            <ul>
+                                <li><a href="glav.html">lavanderia</a></li>
+                                <li><a href="gcoc.html">cocina</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Contáctanos</a>
+                            <ul>
+                                <li><a href="sucursales.html">visítanos</a></li>
+                                <li><a href="prueba.html">escríbenos</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="contenido">
+            <center>
 <table>
 <h1>Formulario de Contacto</h1>
   <form action="" onsubmit="return validarFormulario()">
@@ -109,8 +153,45 @@
 <tr>
 <td><input type="submit" value="Submit"></td>
 </tr>
-
+      </label>
+      </td>
+      </tr>
   </form>
   </table>
+        </div>
+         <div class="bottom">
+
+            <div class="footer">
+                <div class="copy">
+                    <p>&copy; Blanchè Inc.</p>
+                </div>
+                <div class="chip">
+                    <p>construido por Chipmunk Labs&reg;</p>
+                </div>
+                <div class="social1">
+                    <ul>
+                        <li>
+                            <a href="http://www.facebook.com/" class="icon-facebook1"></a>
+                        </li>
+                        <li>
+                            <a href="http://www.twitter.com/" class="icon-twitter1"></a>
+                        </li>
+                        <li>
+                            <a href="http://www.plus.google.com/?hl=es" class="icon-google-plus1"></a>
+                        </li>
+                        <li>
+                            <a href="http://www.tumblr.com/" class="icon-tumblr1"></a>
+                        </li>
+                        <li>
+                            <a href="http://www.youtube.com/" class="icon-youtube1"></a>
+                        </li>
+                        <li>
+                            <a href="http://www.instagram.com/" class="icon-instagram1"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
 </body>
 </html>
