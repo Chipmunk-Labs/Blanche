@@ -362,6 +362,7 @@ div.fila1 {
 .bottom {
     width: 100%;
     background: rgba(33, 47, 60, 1.0);
+    height: 400px;
 }
 
 .cargando {

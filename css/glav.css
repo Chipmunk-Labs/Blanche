@@ -141,6 +141,10 @@ div#contenido {
     height: 1200px;
     background: #eee;
     padding: 15px;
+    background: url(../img/fondog.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: top;
 }
 
 @keyframes gradient{
@@ -162,20 +166,5 @@ video{
     margin: 0 auto; 
     z-index: 106;
    
-    
-}
-div.fondo{
-    position: absolute;
-    z-index: 95;
-}
-div.triangulo{
-    width: 0;
-    height: 0;
-    border-right: 250px solid transparent;
-    border-top: 250px solid transparent;
-    border-left: 250px solid #f0ad4e;
-    border-bottom: 250px solid #f0ad4e;
-    position: absolute;
-    z-index: 9;
     
 }

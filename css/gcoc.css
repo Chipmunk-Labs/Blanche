@@ -144,4 +144,8 @@ div#contenido {
     width: 100%;
     height: 1200px;
     background: #eee;
+       background: url(../img/fondog.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: top;
 }
