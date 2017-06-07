@@ -7,6 +7,8 @@ $(document).ready(function(){
 	$('body').css({
 		'background-position': '0 -' + posicion +'px'
 	});
-      
+      	   $('#contenido').css({
+		'background-position': '0 -' + posicion +'px'
+	});
 	});
 });
